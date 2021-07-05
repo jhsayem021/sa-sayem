@@ -1,25 +1,30 @@
 body{
     margin:0;
-    background-color: rgb(161, 122, 122);
+    background-color: rgba(0, 0, 0, 0.979);
+    font-family: 'PT Sans', sans-serif;
 }
 .d1{
     position: fixed;
     background-image: linear-gradient(orange,darkorange);
     height: 100px;
     display: flex;
-    padding-left: 426px;
+    padding-left: 460px;
     
 }
+p{
+    font-size:18px;
+}
+
 .d12{
-    padding-right: 50px;
-    margin-left: 500px;
+    padding-right: 70px;
+    margin-left: 450px;
     margin-top: 50px;
 }
 
 .lnk:link, .lnk:visited {
     font-size: 20px;
     background-color: #f44336;
-    color: white;
+    color: rgb(252, 252, 253);
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -38,18 +43,20 @@ body{
 }
 .sec1div1{
     
-    margin: 100px 10px 100px 250px;
+    margin: 200px 10px 100px 200px;
     padding-bottom: 10px;
 }
 .sec1div2{
     
-    margin: 100px 200px 10px 200px;
+    margin: 200px 200px 10px 200px;
+    
 
 }
 .sclimg{
-    margin: 150px 5px 5px 5px;
+    margin: 70px 30px 5px 5px;
     height: 40px;
     width: 40px;
+    
 }
 .pdf{
     margin-left: 60px;
@@ -61,10 +68,11 @@ body{
 
 }
 .skils{
-    margin: 0px 570px 0px 570px;
+     margin: 0px 520px 0px 520px;
     text-align: center;
     border:2px solid black;
     font-size: 50px;
+    box-shadow: 5px 5px 30px purple;
 }
 .sec1div4{
     display: flex;
@@ -78,22 +86,35 @@ progress{
     font-size: 26px;
 }
 .sec2div23{
+    width: 50%;
     margin: 90px 80px 100px 200px;
-    padding: 20px 100px 50px 10px;
+    padding: 5px 50px 50px 50px;
+    background-image: url(/envelop.jpg );
+    background-size: 20px;
+    background-repeat: none;
+
 }
 .banner{
-    background-image: linear-gradient(rgb(213, 224, 111),white);
+    background-image: linear-gradient(rgb(111, 224, 117),rgb(133, 77, 197));
     margin: 0px 100px 0px 100px;
 }
 
 .sec2div2{
-    margin: 100px 300px 100px 100px;
+    margin: 40px 50px 100px 50px;
     padding: 20px 10px 50px 10px;
+    
+}
+.sec2div222{
+    margin: 60px 100px 100px 100px;
+    padding: 20px 40px 50px 40px;
+    background-color: rgba(128, 255, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 8px 8px 40px blue;
     
 }
 
 .lnk1:link, .lnk1:visited {
-    background-color: white;
+    background-color: rgb(214, 75, 75);
     color: black;
     border: 2px solid rgb(245, 181, 6);
     padding: 10px 20px;
@@ -115,4 +136,22 @@ progress{
 }
 .lastpara{
     text-align: center;
+}
+.sec2div34{
+    width: 50%;
+    margin: 100px 50px 100px 250px;
+    padding: 20px 10px 50px 10px;
+}
+.sec2div22{
+    width: 50%;
+    margin: 100px 100px 100px 100px;
+    padding: 70px 70px 70px 70px;
+    background-color: wheat;
+    border-radius: 200px;
+    box-shadow: 5px 0px 20px grey;
+    
+}
+label{
+    color: rgb(19, 19, 20);
+    background-color: lightblue;
 }
